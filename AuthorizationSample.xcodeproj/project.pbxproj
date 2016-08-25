@@ -14,6 +14,9 @@
 		7C2C03271D65B190004A210C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2C03251D65B190004A210C /* LaunchScreen.storyboard */; };
 		7C2C03321D65B191004A210C /* FBAuthorizationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C03311D65B191004A210C /* FBAuthorizationSampleTests.swift */; };
 		7C2C033D1D65B191004A210C /* FBAuthorizationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C033C1D65B191004A210C /* FBAuthorizationSampleUITests.swift */; };
+		9117845EC9E90C2DBD9F0078 /* Pods_FBAuthorizationSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7D40BC27EA3A2841629C92 /* Pods_FBAuthorizationSample.framework */; };
+		AF13903833BE80726B8C79C1 /* Pods_FBAuthorizationSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CBB9589CD477812D96425D /* Pods_FBAuthorizationSampleUITests.framework */; };
+		D740B24FBDEAC26B0CE4F33A /* Pods_FBAuthorizationSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728BF1B2BD2991D0AE2FBD96 /* Pods_FBAuthorizationSampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01883DEFA28725C526F9D670 /* Pods-FBAuthorizationSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAuthorizationSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBAuthorizationSampleUITests/Pods-FBAuthorizationSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B59FE7FB9D857660E431E1B /* Pods-FBAuthorizationSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAuthorizationSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBAuthorizationSampleUITests/Pods-FBAuthorizationSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68CBB9589CD477812D96425D /* Pods_FBAuthorizationSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBAuthorizationSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		728BF1B2BD2991D0AE2FBD96 /* Pods_FBAuthorizationSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBAuthorizationSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E13E41B905A16AB3106781 /* Pods-FBAuthorizationSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAuthorizationSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBAuthorizationSampleTests/Pods-FBAuthorizationSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C2C03191D65B190004A210C /* FBAuthorizationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBAuthorizationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2C031C1D65B190004A210C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C2C031E1D65B190004A210C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		7C2C03381D65B191004A210C /* FBAuthorizationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBAuthorizationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2C033C1D65B191004A210C /* FBAuthorizationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAuthorizationSampleUITests.swift; sourceTree = "<group>"; };
 		7C2C033E1D65B191004A210C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BCF7B4855E56F8A1608BB5 /* Pods-FBAuthorizationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAuthorizationSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBAuthorizationSample/Pods-FBAuthorizationSample.release.xcconfig"; sourceTree = "<group>"; };
+		BB7D40BC27EA3A2841629C92 /* Pods_FBAuthorizationSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBAuthorizationSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2732A24501F6FE37674952 /* Pods-FBAuthorizationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAuthorizationSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBAuthorizationSample/Pods-FBAuthorizationSample.debug.xcconfig"; sourceTree = "<group>"; };
+		D398F7851863CAB76241624E /* Pods-FBAuthorizationSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAuthorizationSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBAuthorizationSampleTests/Pods-FBAuthorizationSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9117845EC9E90C2DBD9F0078 /* Pods_FBAuthorizationSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D740B24FBDEAC26B0CE4F33A /* Pods_FBAuthorizationSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF13903833BE80726B8C79C1 /* Pods_FBAuthorizationSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4831BFB5A027593E69CFB4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D40BC27EA3A2841629C92 /* Pods_FBAuthorizationSample.framework */,
+				728BF1B2BD2991D0AE2FBD96 /* Pods_FBAuthorizationSampleTests.framework */,
+				68CBB9589CD477812D96425D /* Pods_FBAuthorizationSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C2C03101D65B190004A210C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				7C2C03301D65B191004A210C /* FBAuthorizationSampleTests */,
 				7C2C033B1D65B191004A210C /* FBAuthorizationSampleUITests */,
 				7C2C031A1D65B190004A210C /* Products */,
+				CDA145D768004D464C042D53 /* Pods */,
+				4831BFB5A027593E69CFB4EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = FBAuthorizationSampleUITests;
 			sourceTree = "<group>";
 		};
+		CDA145D768004D464C042D53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE2732A24501F6FE37674952 /* Pods-FBAuthorizationSample.debug.xcconfig */,
+				A5BCF7B4855E56F8A1608BB5 /* Pods-FBAuthorizationSample.release.xcconfig */,
+				D398F7851863CAB76241624E /* Pods-FBAuthorizationSampleTests.debug.xcconfig */,
+				73E13E41B905A16AB3106781 /* Pods-FBAuthorizationSampleTests.release.xcconfig */,
+				01883DEFA28725C526F9D670 /* Pods-FBAuthorizationSampleUITests.debug.xcconfig */,
+				2B59FE7FB9D857660E431E1B /* Pods-FBAuthorizationSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C2C03411D65B191004A210C /* Build configuration list for PBXNativeTarget "FBAuthorizationSample" */;
 			buildPhases = (
+				B5B58F8E6D823F1944E0EF4B /* [CP] Check Pods Manifest.lock */,
 				7C2C03151D65B190004A210C /* Sources */,
 				7C2C03161D65B190004A210C /* Frameworks */,
 				7C2C03171D65B190004A210C /* Resources */,
+				E0AE3C918328E69F190CD516 /* [CP] Embed Pods Frameworks */,
+				FC87060E28234401B65BDCFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C2C03441D65B191004A210C /* Build configuration list for PBXNativeTarget "FBAuthorizationSampleTests" */;
 			buildPhases = (
+				24765779114F9F67F1A0F2B0 /* [CP] Check Pods Manifest.lock */,
 				7C2C03291D65B191004A210C /* Sources */,
 				7C2C032A1D65B191004A210C /* Frameworks */,
 				7C2C032B1D65B191004A210C /* Resources */,
+				C51B03AEDD50D1A9F89617F6 /* [CP] Embed Pods Frameworks */,
+				93DB57E8F731B723321E4A5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C2C03471D65B191004A210C /* Build configuration list for PBXNativeTarget "FBAuthorizationSampleUITests" */;
 			buildPhases = (
+				D6EF91333CDC32FF484CA54D /* [CP] Check Pods Manifest.lock */,
 				7C2C03341D65B191004A210C /* Sources */,
 				7C2C03351D65B191004A210C /* Frameworks */,
 				7C2C03361D65B191004A210C /* Resources */,
+				EE1C21D5E47BA161716D6563 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24765779114F9F67F1A0F2B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93DB57E8F731B723321E4A5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAuthorizationSampleTests/Pods-FBAuthorizationSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B58F8E6D823F1944E0EF4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C51B03AEDD50D1A9F89617F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAuthorizationSampleTests/Pods-FBAuthorizationSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6EF91333CDC32FF484CA54D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0AE3C918328E69F190CD516 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAuthorizationSample/Pods-FBAuthorizationSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1C21D5E47BA161716D6563 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAuthorizationSampleUITests/Pods-FBAuthorizationSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC87060E28234401B65BDCFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAuthorizationSample/Pods-FBAuthorizationSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C2C03151D65B190004A210C /* Sources */ = {
@@ -399,28 +570,31 @@
 		};
 		7C2C03421D65B191004A210C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2732A24501F6FE37674952 /* Pods-FBAuthorizationSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBAuthorizationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ekreative.FBAuthorizationSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ekreative.AuthorizationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		7C2C03431D65B191004A210C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BCF7B4855E56F8A1608BB5 /* Pods-FBAuthorizationSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBAuthorizationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ekreative.FBAuthorizationSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ekreative.AuthorizationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		7C2C03451D65B191004A210C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D398F7851863CAB76241624E /* Pods-FBAuthorizationSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FBAuthorizationSampleTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		7C2C03461D65B191004A210C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E13E41B905A16AB3106781 /* Pods-FBAuthorizationSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FBAuthorizationSampleTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		7C2C03481D65B191004A210C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01883DEFA28725C526F9D670 /* Pods-FBAuthorizationSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FBAuthorizationSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		7C2C03491D65B191004A210C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B59FE7FB9D857660E431E1B /* Pods-FBAuthorizationSampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FBAuthorizationSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				7C2C03431D65B191004A210C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C2C03441D65B191004A210C /* Build configuration list for PBXNativeTarget "FBAuthorizationSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				7C2C03461D65B191004A210C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C2C03471D65B191004A210C /* Build configuration list for PBXNativeTarget "FBAuthorizationSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				7C2C03491D65B191004A210C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
